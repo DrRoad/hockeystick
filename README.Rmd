@@ -25,9 +25,14 @@ The goal of `hockeystick` is to make essential Climate Change datasets easily av
 The choice of data is based on [Professor Stefan Rahmstorf's ](http://www.pik-potsdam.de/~stefan/) presentation on [The 5 Most Important Data Sets of Climate Science](http://www.pik-potsdam.de/~stefan/5datasets_rahmstorf.pdf). I came across this on a post on the [Open Mind blog](https://tamino.wordpress.com/2018/11/01/the-5-most-important-data-sets-of-climate-science/). I wrote my own [post](http://rethinking.rbind.io/2018/11/16/the-top-five-climate-charts-using-ggplot2/) on obtaining and visualizing this data (now out of date), which is the basis for this package.
 
 ## Installation
+To install the CRAN version of `hockeystick` type:
 
-You can install the development version of `hockeystick` from [https://github.com/cortinah/hockeystick](https://github.com/cortinah/hockeystick) with:
+``` r
+install.packages('hockeystick')
+```
 
+You may alternatively install the development version of `hockeystick` from [https://github.com/cortinah/hockeystick](https://github.com/cortinah/hockeystick) with:
+  
 ``` r
 remotes::install_github("cortinah/hockeystick")
 ```

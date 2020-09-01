@@ -32,8 +32,14 @@ basis for this package.
 
 ## Installation
 
-You can install the development version of `hockeystick` from
-<https://github.com/cortinah/hockeystick> with:
+To install the CRAN version of `hockeystick` type:
+
+``` r
+install.packages('hockeystick')
+```
+
+You may alternatively install the development version of `hockeystick`
+from <https://github.com/cortinah/hockeystick> with:
 
 ``` r
 remotes::install_github("cortinah/hockeystick")
